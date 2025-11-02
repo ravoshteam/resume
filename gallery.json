@@ -1,0 +1,22 @@
+[
+  {
+    "type": "video",
+    "src": "gallery/video1.mp4",
+    "title": "ویدیو معرفی ۱"
+  },
+  {
+    "type": "photo",
+    "src": "gallery/photo1.jpg",
+    "title": "نمونه عکس ۱"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video2.mp4",
+    "title": "ویدیو معرفی ۲"
+  },
+  {
+    "type": "photo",
+    "src": "gallery/photo2.jpg",
+    "title": "نمونه عکس ۲"
+  }
+]
