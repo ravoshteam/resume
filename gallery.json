@@ -1,22 +1,87 @@
 [
   {
-    "type": "video",
-    "src": "gallery/video1.mp4",
-    "title": "ویدیو معرفی ۱"
-  },
-  {
     "type": "photo",
-    "src": "gallery/photo1.jpg",
+    "src": "gallery/photo_2025-11-02_19-12-19.jpg",
     "title": "نمونه عکس ۱"
   },
   {
     "type": "video",
-    "src": "gallery/video2.mp4",
-    "title": "ویدیو معرفی ۲"
+    "src": "gallery/video_2025-11-02_19-05-36.mp4",
+    "title": "ویدیو ۱"
   },
   {
-    "type": "photo",
-    "src": "gallery/photo2.jpg",
-    "title": "نمونه عکس ۲"
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-05-55.mp4",
+    "title": "ویدیو ۲"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-00.mp4",
+    "title": "ویدیو ۳"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-04.mp4",
+    "title": "ویدیو ۴"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-08.mp4",
+    "title": "ویدیو ۵"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-12.mp4",
+    "title": "ویدیو ۶"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-17.mp4",
+    "title": "ویدیو ۷"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-20.mp4",
+    "title": "ویدیو ۸"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-23.mp4",
+    "title": "ویدیو ۹"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-26.mp4",
+    "title": "ویدیو ۱۰"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-30.mp4",
+    "title": "ویدیو ۱۱"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-33.mp4",
+    "title": "ویدیو ۱۲"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-37.mp4",
+    "title": "ویدیو ۱۳"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-40.mp4",
+    "title": "ویدیو ۱۴"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-44.mp4",
+    "title": "ویدیو ۱۵"
+  },
+  {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-48.mp4",
+    "title": "ویدیو ۱۶"
   }
 ]
