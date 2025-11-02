@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>نمونه کار و معرفی تیم راوش</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f5f7fa;
+      --card:#ffffff;
+      --muted:#555;
+      --accent:#0ea5e9;
+      --glass: rgba(0,0,0,0.05);
+      --radius:14px;
+      --gap:18px;
+      --maxw:1200px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:'Vazirmatn',system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;
+      background:linear-gradient(180deg,#e9eef5 0%, #f5f7fa 100%);
+      color:#222;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.6;
+      padding:36px 20px;
+      display:flex;
+      justify-content:center;
+    }
+    .container{width:100%;max-width:var(--maxw)}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px}
+    .brand{display:flex;align-items:center;gap:12px}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:0;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 380px;gap:var(--gap)}
+    @media (max-width:980px){.grid{grid-template-columns:1fr}}
+
+    .card{background:var(--card);border-radius:var(--radius);padding:14px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+    .videos{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+    @media (max-width:980px){.videos{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:540px){.videos{grid-template-columns:1fr}}
+
+    .video-thumb{position:relative;border-radius:12px;overflow:hidden;cursor:pointer;background:var(--glass);min-height:150px;display:flex;align-items:center;justify-content:center}
+    .video-thumb video,.video-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+    .meta{position:absolute;left:12px;bottom:12px;background:rgba(255,255,255,0.8);padding:8px 10px;border-radius:10px;font-size:13px;color:#000}
+    .playbtn{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+    .playbtn .dot{width:60px;height:60px;border-radius:50%;background:rgba(0,0,0,0.4);display:grid;place-items:center}
+    .playbtn .dot::after{content:'';border-style:solid;border-width:10px 0 10px 16px;border-color:transparent transparent transparent #fff;margin-left:4px}
+
+    .sidebar{display:flex;flex-direction:column;gap:14px}
+
+    .modal{position:fixed;inset:0;background:rgba(0,0,0,0.5);display:none;align-items:center;justify-content:center;padding:24px}
+    .modal.open{display:flex}
+    .modal-content{width:min(1100px,100%);background:#fff;border-radius:12px;padding:14px;box-shadow:0 10px 40px rgba(0,0,0,0.3)}
+    .modal video{width:100%;height:auto;border-radius:8px;background:#000}
+    .modal .close{margin-top:10px;background:transparent;color:#333;border:0;cursor:pointer;font-size:14px}
+
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div>
+          <h1>راوش</h1>
+          <p class="lead">خلق محتوا با کیفیت و جذاب</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section>
+        <div class="card">
+          <h2 style="margin:0 0 6px">گالری</h2>
+          <p style="margin:0;color:var(--muted);font-size:14px">نمونه‌های ویدیو و عکس تیم راوش</p>
+
+          <div class="videos" id="videos">
+            <!-- محتوای گالری به صورت پویا از gallery.json لود می‌شود -->
+          </div>
+        </div>
+
+        <footer>
+          <small>تمامی مطالب، عکس ها و محتوای سایت متعلق به تیم <a href="https://t.me/Rawosh_team">راوش</a> می باشد. <a href="https://www.linkedin.com/in/soroush-ghorbanpoor-4465592a3">طراح سایت</a> ©2025</small>
+        </footer>
+      </section>
+
+      <aside class="sidebar">
+        <div class="card">
+          <h3 style="margin:0 0 8px">درباره تیم راوش</h3>
+          <p style="margin:0;color:var(--muted);line-height:1.7">
+            تیم راوش مجموعه‌ای از متخصصینی است که در حوزه ادیت و سناریو نویسی فعالیت می‌کند.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin:0 0 8px">تماس</h3>
+          <p style="margin:0 0 10px;color:var(--muted)">برای ارتباط یا همکاری با ما از طریق تلگرام در تماس باشید</p>
+          <a href="https://t.me/Rawosh_team" style="display:inline-block;padding:10px 12px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#60a5fa);color:#fff;text-decoration:none;font-weight:600">تلگرام</a>
+        </div>
+      </aside>
+    </main>
+
+    <!-- پنجره پخش ویدیو -->
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-content">
+        <video id="player" controls playsinline preload="auto">
+          <source src="" type="video/mp4">
+        </video>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px">
+          <small id="mtitle" style="color:#666"></small>
+          <button class="close" id="closeBtn">بستن ✕</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const container = document.getElementById('videos');
+
+    fetch('gallery.json')
+      .then(res => res.json())
+      .then(items => {
+        items.forEach(item => {
+          if(item.type === 'photo'){
+            container.innerHTML += `
+              <div class="video-thumb" tabindex="0" aria-label="${item.title}">
+                <img src="${item.src}" alt="${item.title}">
+                <div class="meta">${item.title}</div>
+              </div>`;
+          } else {
+            container.innerHTML += `
+              <div class="video-thumb" data-src="${item.src}" tabindex="0" aria-label="${item.title}">
+                <video muted playsinline preload="metadata" src="${item.src}"></video>
+                <div class="playbtn"><div class="dot"></div></div>
+                <div class="meta">${item.title}</div>
+              </div>`;
+          }
+        });
+
+        // فعال‌سازی ویدیوها در مودال
+        const thumbs = document.querySelectorAll('.video-thumb[data-src]');
+        const modal = document.getElementById('modal');
+        const player = document.getElementById('player');
+        const mtitle = document.getElementById('mtitle');
+        const closeBtn = document.getElementById('closeBtn');
+
+        thumbs.forEach(t => {
+          t.addEventListener('click', openFromThumb);
+          t.addEventListener('keydown', e => { if(e.key === 'Enter' || e.key === ' ') openFromThumb.call(t,e) });
+        });
+
+        function openFromThumb(e){
+          const src = this.dataset.src;
+          const title = this.querySelector('.meta')?.textContent || '';
+          player.pause();
+          player.querySelector('source').src = src;
+          player.load();
+          mtitle.textContent = title;
+          modal.classList.add('open');
+          modal.setAttribute('aria-hidden','false');
+        }
+
+        closeBtn.addEventListener('click', closeModal);
+        modal.addEventListener('click', (e)=>{ if(e.target === modal) closeModal(); });
+        document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModal(); });
+
+        function closeModal(){
+          player.pause();
+          player.querySelector('source').src = '';
+          player.load();
+          modal.classList.remove('open');
+          modal.setAttribute('aria-hidden','true');
+        }
+      })
+      .catch(err => {
+        console.error('خطا در خواندن گالری:', err);
+        container.innerHTML = "<p style='color:red'>مشکلی در بارگذاری گالری پیش آمد.</p>";
+      });
+  </script>
+</body>
+</html>
