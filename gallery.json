@@ -2,86 +2,103 @@
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-05-55.mp4",
+    "poster": "posters/55.png",
     "title": "ویدیو ۲"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-00.mp4",
+    "poster": "posters/00.png",
     "title": "ویدیو ۳"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-04.mp4",
+    "poster": "posters/04.png",
     "title": "ویدیو ۴"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-08.mp4",
+    "poster": "posters/08.png",
     "title": "ویدیو ۵"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-12.mp4",
+    "poster": "posters/12.png",
     "title": "ویدیو ۶"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-17.mp4",
+    "poster": "posters/17.png",
     "title": "ویدیو ۷"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-20.mp4",
+    "poster": "posters/20.png",
     "title": "ویدیو ۸"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-23.mp4",
+    "poster": "posters/23/png",
     "title": "ویدیو ۹"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-26.mp4",
+    "poster": "posters/26.png",
     "title": "ویدیو ۱۰"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-30.mp4",
+    "poster": "posters/30.png",
     "title": "ویدیو ۱۱"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-33.mp4",
+    "poster": "posters/33.png",
     "title": "ویدیو ۱۲"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-37.mp4",
+    "poster": "posters/37.png",
     "title": "ویدیو ۱۳"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-40.mp4",
+    "poster": "posters/40.png",
     "title": "ویدیو ۱۴"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-44.mp4",
+    "poster": "posters/44.png",
     "title": "ویدیو ۱۵"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-48.mp4",
+    "poster": "posters/48.png",
     "title": "ویدیو ۱۶"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-51.mp4",
+    "poster": "posters/51.png",
     "title": "ویدیو ۱٧"
   },
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-54.mp4",
+    "poster": "posters/54.png",
     "title": "ویدیو ۱٨"
   },
   {
@@ -92,6 +109,7 @@
   {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-58.mp4",
+    "poster": "posters/58.png",
     "title": "ویدیو ۱٩"
   }
 ]
