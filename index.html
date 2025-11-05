@@ -145,7 +145,7 @@
           } else {
             container.innerHTML += `
               <div class="video-thumb" data-src="${item.src}" tabindex="0" aria-label="${item.title}">
-                <video muted playsinline preload="none" loading="lazy" src="${item.src}"></video>
+                <video muted playsinline preload="none" loading="lazy" poster="${item.poster}" src="${item.src}"></video>
                 <div class="playbtn"><div class="dot"></div></div>
                 <div class="meta">${item.title}</div>
               </div>`;
@@ -211,3 +211,4 @@
   </script>
 </body>
 </html>
+
