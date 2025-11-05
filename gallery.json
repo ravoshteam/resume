@@ -1,15 +1,5 @@
 [
   {
-    "type": "photo",
-    "src": "gallery/photo_2025-11-02_19-12-19.jpg",
-    "title": "نمونه عکس ۱"
-  },
-  {
-    "type": "video",
-    "src": "gallery/video_2025-11-02_19-05-36.mp4",
-    "title": "ویدیو ۱"
-  },
-  {
     "type": "video",
     "src": "gallery/video_2025-11-02_19-05-55.mp4",
     "title": "ویدیو ۲"
@@ -93,6 +83,11 @@
     "type": "video",
     "src": "gallery/video_2025-11-02_19-06-54.mp4",
     "title": "ویدیو ۱۶"
+  },
+  {
+    "type": "photo",
+    "src": "gallery/photo_2025-11-02_19-12-19.jpg",
+    "title": "نمونه عکس ۱"
   },
   {
     "type": "video",
