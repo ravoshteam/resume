@@ -57,7 +57,16 @@
     .modal{position:fixed;inset:0;background:rgba(0,0,0,0.5);display:none;align-items:center;justify-content:center;padding:24px}
     .modal.open{display:flex}
     .modal-content{width:min(1100px,100%);background:#fff;border-radius:12px;padding:14px;box-shadow:0 10px 40px rgba(0,0,0,0.3)}
-    .modal video{width:100%;height:auto;border-radius:8px;background:#000}
+    .modal video {
+  max-width: 800px;
+  max-height: 80vh;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: #000;
+  margin: 0 auto;
+  display: block;
+}
     .modal .close{margin-top:10px;background:transparent;color:#333;border:0;cursor:pointer;font-size:14px}
 
     footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
@@ -185,3 +194,4 @@
   </script>
 </body>
 </html>
+
