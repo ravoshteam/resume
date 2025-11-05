@@ -191,13 +191,23 @@
         console.error('خطا در خواندن گالری:', err);
         container.innerHTML = "<p style='color:red'>مشکلی در بارگذاری گالری پیش آمد.</p>";
       });
+    setTimeout(() => {
+  document.querySelectorAll('.video-thumb video').forEach(video => {
+    video.addEventListener('loadeddata', () => {
+      try {
+        const canvas = document.createElement('canvas');
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+        const thumb = canvas.toDataURL('image/jpeg');
+        video.setAttribute('poster', thumb);
+      } catch (e) {
+        console.warn('خطا در ساخت پوستر:', e);
+      }
+    }, { once: true });
+  });
+}, 2000);
   </script>
 </body>
 </html>
-
-
-
-
-
-
-
