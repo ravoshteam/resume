@@ -115,6 +115,16 @@
   {
     "type": "photo",
     "src": "gallery/final4",
-    "title": "نمونه عکس ٢"
+    "title": "نمونه عکس ۲"
+  },
+  {
+    "type": "photo",
+    "src": "gallery/img3",
+    "title": "نمونه عکس ۳"
+  },
+  {
+    "type": "photo",
+    "src": "gallery/img4",
+    "title": "نمونه عکس ۴"
   }
 ]
