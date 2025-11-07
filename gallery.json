@@ -102,14 +102,19 @@
     "title": "ویدیو ۱٨"
   },
   {
+    "type": "video",
+    "src": "gallery/video_2025-11-02_19-06-58.mp4",
+    "poster": "posters/58.png",
+    "title": "ویدیو ۱٩"
+  },
+  {
     "type": "photo",
     "src": "gallery/photo_2025-11-02_19-12-19.jpg",
     "title": "نمونه عکس ۱"
   },
   {
-    "type": "video",
-    "src": "gallery/video_2025-11-02_19-06-58.mp4",
-    "poster": "posters/58.png",
-    "title": "ویدیو ۱٩"
+    "type": "photo",
+    "src": "gallery/final4",
+    "title": "نمونه عکس ٢"
   }
 ]
